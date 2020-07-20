@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E123C6224C1FEFC0049A774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C6124C1FEFC0049A774 /* AppDelegate.swift */; };
+		7E123C6424C1FEFC0049A774 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */; };
+		7E123C6B24C1FEFD0049A774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E123C6A24C1FEFD0049A774 /* Assets.xcassets */; };
+		7E123C6E24C1FEFD0049A774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E123C6C24C1FEFD0049A774 /* LaunchScreen.storyboard */; };
+		7E123C7924C1FEFE0049A774 /* YPShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C7824C1FEFE0049A774 /* YPShopTests.swift */; };
+		7E123C8424C1FEFE0049A774 /* YPShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C8324C1FEFE0049A774 /* YPShopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E123C7524C1FEFE0049A774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E123C5624C1FEFC0049A774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E123C5D24C1FEFC0049A774;
+			remoteInfo = YPShop;
+		};
+		7E123C8024C1FEFE0049A774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E123C5624C1FEFC0049A774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E123C5D24C1FEFC0049A774;
+			remoteInfo = YPShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E123C5E24C1FEFC0049A774 /* YPShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E123C6124C1FEFC0049A774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E123C6A24C1FEFD0049A774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E123C6D24C1FEFD0049A774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E123C6F24C1FEFD0049A774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E123C7424C1FEFE0049A774 /* YPShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E123C7824C1FEFE0049A774 /* YPShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPShopTests.swift; sourceTree = "<group>"; };
+		7E123C7A24C1FEFE0049A774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E123C7F24C1FEFE0049A774 /* YPShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E123C8324C1FEFE0049A774 /* YPShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPShopUITests.swift; sourceTree = "<group>"; };
+		7E123C8524C1FEFE0049A774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E123C5B24C1FEFC0049A774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E123C7124C1FEFE0049A774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E123C7C24C1FEFE0049A774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E123C5524C1FEFC0049A774 = {
+			isa = PBXGroup;
+			children = (
+				7E123C6024C1FEFC0049A774 /* YPShop */,
+				7E123C7724C1FEFE0049A774 /* YPShopTests */,
+				7E123C8224C1FEFE0049A774 /* YPShopUITests */,
+				7E123C5F24C1FEFC0049A774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E123C5F24C1FEFC0049A774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E123C5E24C1FEFC0049A774 /* YPShop.app */,
+				7E123C7424C1FEFE0049A774 /* YPShopTests.xctest */,
+				7E123C7F24C1FEFE0049A774 /* YPShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E123C6024C1FEFC0049A774 /* YPShop */ = {
+			isa = PBXGroup;
+			children = (
+				7E123C9124C1FFE60049A774 /* App */,
+				7E123C9224C1FFEF0049A774 /* Core */,
+				7E123C9324C1FFF90049A774 /* Resources */,
+				7E123C9424C2000B0049A774 /* Environments */,
+			);
+			path = YPShop;
+			sourceTree = "<group>";
+		};
+		7E123C7724C1FEFE0049A774 /* YPShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E123C7824C1FEFE0049A774 /* YPShopTests.swift */,
+				7E123C7A24C1FEFE0049A774 /* Info.plist */,
+			);
+			path = YPShopTests;
+			sourceTree = "<group>";
+		};
+		7E123C8224C1FEFE0049A774 /* YPShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E123C8324C1FEFE0049A774 /* YPShopUITests.swift */,
+				7E123C8524C1FEFE0049A774 /* Info.plist */,
+			);
+			path = YPShopUITests;
+			sourceTree = "<group>";
+		};
+		7E123C9124C1FFE60049A774 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7E123C6124C1FEFC0049A774 /* AppDelegate.swift */,
+				7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */,
+				7E123C9824C200460049A774 /* BussinessLogic */,
+				7E123C9724C2003D0049A774 /* Entity */,
+				7E123C9624C200320049A774 /* Assembly */,
+				7E123C9524C200210049A774 /* Flows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7E123C9224C1FFEF0049A774 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7E123C9324C1FFF90049A774 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E123C6C24C1FEFD0049A774 /* LaunchScreen.storyboard */,
+				7E123C6A24C1FEFD0049A774 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E123C9424C2000B0049A774 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				7E123C6F24C1FEFD0049A774 /* Info.plist */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		7E123C9524C200210049A774 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		7E123C9624C200320049A774 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		7E123C9724C2003D0049A774 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7E123C9824C200460049A774 /* BussinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BussinessLogic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E123C5D24C1FEFC0049A774 /* YPShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E123C8824C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShop" */;
+			buildPhases = (
+				7E123C5A24C1FEFC0049A774 /* Sources */,
+				7E123C5B24C1FEFC0049A774 /* Frameworks */,
+				7E123C5C24C1FEFC0049A774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPShop;
+			productName = YPShop;
+			productReference = 7E123C5E24C1FEFC0049A774 /* YPShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E123C7324C1FEFE0049A774 /* YPShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E123C8B24C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShopTests" */;
+			buildPhases = (
+				7E123C7024C1FEFE0049A774 /* Sources */,
+				7E123C7124C1FEFE0049A774 /* Frameworks */,
+				7E123C7224C1FEFE0049A774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E123C7624C1FEFE0049A774 /* PBXTargetDependency */,
+			);
+			name = YPShopTests;
+			productName = YPShopTests;
+			productReference = 7E123C7424C1FEFE0049A774 /* YPShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E123C7E24C1FEFE0049A774 /* YPShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E123C8E24C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShopUITests" */;
+			buildPhases = (
+				7E123C7B24C1FEFE0049A774 /* Sources */,
+				7E123C7C24C1FEFE0049A774 /* Frameworks */,
+				7E123C7D24C1FEFE0049A774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E123C8124C1FEFE0049A774 /* PBXTargetDependency */,
+			);
+			name = YPShopUITests;
+			productName = YPShopUITests;
+			productReference = 7E123C7F24C1FEFE0049A774 /* YPShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E123C5624C1FEFC0049A774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Yury Podkutin";
+				TargetAttributes = {
+					7E123C5D24C1FEFC0049A774 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					7E123C7324C1FEFE0049A774 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7E123C5D24C1FEFC0049A774;
+					};
+					7E123C7E24C1FEFE0049A774 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7E123C5D24C1FEFC0049A774;
+					};
+				};
+			};
+			buildConfigurationList = 7E123C5924C1FEFC0049A774 /* Build configuration list for PBXProject "YPShop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E123C5524C1FEFC0049A774;
+			productRefGroup = 7E123C5F24C1FEFC0049A774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E123C5D24C1FEFC0049A774 /* YPShop */,
+				7E123C7324C1FEFE0049A774 /* YPShopTests */,
+				7E123C7E24C1FEFE0049A774 /* YPShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E123C5C24C1FEFC0049A774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E123C6E24C1FEFD0049A774 /* LaunchScreen.storyboard in Resources */,
+				7E123C6B24C1FEFD0049A774 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E123C7224C1FEFE0049A774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E123C7D24C1FEFE0049A774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E123C5A24C1FEFC0049A774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E123C6224C1FEFC0049A774 /* AppDelegate.swift in Sources */,
+				7E123C6424C1FEFC0049A774 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E123C7024C1FEFE0049A774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E123C7924C1FEFE0049A774 /* YPShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E123C7B24C1FEFE0049A774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E123C8424C1FEFE0049A774 /* YPShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E123C7624C1FEFE0049A774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E123C5D24C1FEFC0049A774 /* YPShop */;
+			targetProxy = 7E123C7524C1FEFE0049A774 /* PBXContainerItemProxy */;
+		};
+		7E123C8124C1FEFE0049A774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E123C5D24C1FEFC0049A774 /* YPShop */;
+			targetProxy = 7E123C8024C1FEFE0049A774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E123C6C24C1FEFD0049A774 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E123C6D24C1FEFD0049A774 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E123C8624C1FEFE0049A774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E123C8724C1FEFE0049A774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E123C8924C1FEFE0049A774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQ8BGD9ND3;
+				INFOPLIST_FILE = YPShop/Environments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E123C8A24C1FEFE0049A774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQ8BGD9ND3;
+				INFOPLIST_FILE = YPShop/Environments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E123C8C24C1FEFE0049A774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQ8BGD9ND3;
+				INFOPLIST_FILE = YPShopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPShop.app/YPShop";
+			};
+			name = Debug;
+		};
+		7E123C8D24C1FEFE0049A774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQ8BGD9ND3;
+				INFOPLIST_FILE = YPShopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPShop.app/YPShop";
+			};
+			name = Release;
+		};
+		7E123C8F24C1FEFE0049A774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQ8BGD9ND3;
+				INFOPLIST_FILE = YPShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPShop;
+			};
+			name = Debug;
+		};
+		7E123C9024C1FEFE0049A774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQ8BGD9ND3;
+				INFOPLIST_FILE = YPShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E123C5924C1FEFC0049A774 /* Build configuration list for PBXProject "YPShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E123C8624C1FEFE0049A774 /* Debug */,
+				7E123C8724C1FEFE0049A774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E123C8824C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E123C8924C1FEFE0049A774 /* Debug */,
+				7E123C8A24C1FEFE0049A774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E123C8B24C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E123C8C24C1FEFE0049A774 /* Debug */,
+				7E123C8D24C1FEFE0049A774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E123C8E24C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E123C8F24C1FEFE0049A774 /* Debug */,
+				7E123C9024C1FEFE0049A774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E123C5624C1FEFC0049A774 /* Project object */;
+}
