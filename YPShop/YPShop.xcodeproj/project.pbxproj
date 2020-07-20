@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2B0AC83A1A42F6D92EA0BAB0 /* Pods_YPShop_YPShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C6BBAB60AC9251CF3EB325 /* Pods_YPShop_YPShopUITests.framework */; };
 		7E123C6224C1FEFC0049A774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C6124C1FEFC0049A774 /* AppDelegate.swift */; };
-		7E123C6424C1FEFC0049A774 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */; };
 		7E123C6B24C1FEFD0049A774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E123C6A24C1FEFD0049A774 /* Assets.xcassets */; };
 		7E123C6E24C1FEFD0049A774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E123C6C24C1FEFD0049A774 /* LaunchScreen.storyboard */; };
 		7E123C7924C1FEFE0049A774 /* YPShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C7824C1FEFE0049A774 /* YPShopTests.swift */; };
@@ -43,7 +42,6 @@
 		75C6BBAB60AC9251CF3EB325 /* Pods_YPShop_YPShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPShop_YPShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E123C5E24C1FEFC0049A774 /* YPShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E123C6124C1FEFC0049A774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7E123C6A24C1FEFD0049A774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E123C6D24C1FEFD0049A774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E123C6F24C1FEFD0049A774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				9A0D2C7F8D8ECBB7F5FDC739 /* Pods-YPShopTests.debug.xcconfig */,
 				69DC7D37BFA69120A8887E85 /* Pods-YPShopTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				7E123C6124C1FEFC0049A774 /* AppDelegate.swift */,
-				7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */,
 				7E123C9824C200460049A774 /* BussinessLogic */,
 				7E123C9724C2003D0049A774 /* Entity */,
 				7E123C9624C200320049A774 /* Assembly */,
@@ -466,7 +462,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E123C6224C1FEFC0049A774 /* AppDelegate.swift in Sources */,
-				7E123C6424C1FEFC0049A774 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +630,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQ8BGD9ND3;
 				INFOPLIST_FILE = YPShop/Environments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,7 +638,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -654,6 +650,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQ8BGD9ND3;
 				INFOPLIST_FILE = YPShop/Environments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -661,7 +658,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
