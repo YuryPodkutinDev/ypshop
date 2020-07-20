@@ -18,6 +18,8 @@
 		7EA523C524C5F7580098B27B /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523C424C5F7580098B27B /* DataRequest.swift */; };
 		7EA523C724C5FA150098B27B /* AbstractRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523C624C5FA150098B27B /* AbstractRequestFactory.swift */; };
 		7EA523C924C5FB720098B27B /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523C824C5FB720098B27B /* RequestRouter.swift */; };
+		7EA523CB24C5FD8D0098B27B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523CA24C5FD8D0098B27B /* User.swift */; };
+		7EA523CD24C5FE150098B27B /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523CC24C5FE150098B27B /* LoginResult.swift */; };
 		E83B64DC4D7973548E4EA1BA /* Pods_YPShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB959375F4A9CC50FB85FE0 /* Pods_YPShopTests.framework */; };
 		EDB7C99ED91A6CF816EE99BF /* Pods_YPShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314D6B07644DE7631951B1F2 /* Pods_YPShop.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		7EA523C424C5F7580098B27B /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
 		7EA523C624C5FA150098B27B /* AbstractRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestFactory.swift; sourceTree = "<group>"; };
 		7EA523C824C5FB720098B27B /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		7EA523CA24C5FD8D0098B27B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7EA523CC24C5FE150098B27B /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
 		9A0D2C7F8D8ECBB7F5FDC739 /* Pods-YPShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShopTests.debug.xcconfig"; path = "Target Support Files/Pods-YPShopTests/Pods-YPShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8722C97976261DA9C47FEE6 /* Pods-YPShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShop.debug.xcconfig"; path = "Target Support Files/Pods-YPShop/Pods-YPShop.debug.xcconfig"; sourceTree = "<group>"; };
 		DB5CFFEEE063DEFEE2CFD958 /* Pods-YPShop-YPShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShop-YPShopUITests.debug.xcconfig"; path = "Target Support Files/Pods-YPShop-YPShopUITests/Pods-YPShop-YPShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 		7E123C9724C2003D0049A774 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				7EA523CA24C5FD8D0098B27B /* User.swift */,
+				7EA523CC24C5FE150098B27B /* LoginResult.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -488,8 +494,10 @@
 				7E123C6224C1FEFC0049A774 /* AppDelegate.swift in Sources */,
 				7EA523C924C5FB720098B27B /* RequestRouter.swift in Sources */,
 				7EA523C324C5F6720098B27B /* ErrorParser.swift in Sources */,
+				7EA523CD24C5FE150098B27B /* LoginResult.swift in Sources */,
 				7EA523C124C5F58E0098B27B /* AbstractErrorParser.swift in Sources */,
 				7EA523C524C5F7580098B27B /* DataRequest.swift in Sources */,
+				7EA523CB24C5FD8D0098B27B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
