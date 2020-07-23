@@ -3,16 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0AC83A1A42F6D92EA0BAB0 /* Pods_YPShop_YPShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C6BBAB60AC9251CF3EB325 /* Pods_YPShop_YPShopUITests.framework */; };
 		7E123C6224C1FEFC0049A774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C6124C1FEFC0049A774 /* AppDelegate.swift */; };
-		7E123C6424C1FEFC0049A774 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */; };
 		7E123C6B24C1FEFD0049A774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E123C6A24C1FEFD0049A774 /* Assets.xcassets */; };
 		7E123C6E24C1FEFD0049A774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E123C6C24C1FEFD0049A774 /* LaunchScreen.storyboard */; };
 		7E123C7924C1FEFE0049A774 /* YPShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C7824C1FEFE0049A774 /* YPShopTests.swift */; };
 		7E123C8424C1FEFE0049A774 /* YPShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E123C8324C1FEFE0049A774 /* YPShopUITests.swift */; };
+		7EA523C124C5F58E0098B27B /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523C024C5F58E0098B27B /* AbstractErrorParser.swift */; };
+		7EA523C324C5F6720098B27B /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523C224C5F6720098B27B /* ErrorParser.swift */; };
+		7EA523C524C5F7580098B27B /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523C424C5F7580098B27B /* DataRequest.swift */; };
+		7EA523C724C5FA150098B27B /* AbstractRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523C624C5FA150098B27B /* AbstractRequestFactory.swift */; };
+		7EA523C924C5FB720098B27B /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523C824C5FB720098B27B /* RequestRouter.swift */; };
+		7EA523CB24C5FD8D0098B27B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523CA24C5FD8D0098B27B /* User.swift */; };
+		7EA523CD24C5FE150098B27B /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523CC24C5FE150098B27B /* LoginResult.swift */; };
+		7EA523D024C5FE920098B27B /* AuthRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523CF24C5FE920098B27B /* AuthRequestFactory.swift */; };
+		7EA523D224C5FEF10098B27B /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523D124C5FEF10098B27B /* Auth.swift */; };
+		7EA523D424C601810098B27B /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523D324C601810098B27B /* RequestFactory.swift */; };
+		7EA523D824C9ABB00098B27B /* EmptyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523D724C9ABB00098B27B /* EmptyResult.swift */; };
+		7EA523DA24C9AE0E0098B27B /* RegisterUserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA523D924C9AE0E0098B27B /* RegisterUserResult.swift */; };
+		E83B64DC4D7973548E4EA1BA /* Pods_YPShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB959375F4A9CC50FB85FE0 /* Pods_YPShopTests.framework */; };
+		EDB7C99ED91A6CF816EE99BF /* Pods_YPShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314D6B07644DE7631951B1F2 /* Pods_YPShop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		314D6B07644DE7631951B1F2 /* Pods_YPShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB959375F4A9CC50FB85FE0 /* Pods_YPShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEEB66F9DAA85E883B51D8F /* Pods-YPShop-YPShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShop-YPShopUITests.release.xcconfig"; path = "Target Support Files/Pods-YPShop-YPShopUITests/Pods-YPShop-YPShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69DC7D37BFA69120A8887E85 /* Pods-YPShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShopTests.release.xcconfig"; path = "Target Support Files/Pods-YPShopTests/Pods-YPShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		75C6BBAB60AC9251CF3EB325 /* Pods_YPShop_YPShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPShop_YPShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E123C5E24C1FEFC0049A774 /* YPShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E123C6124C1FEFC0049A774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7E123C6A24C1FEFD0049A774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E123C6D24C1FEFD0049A774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E123C6F24C1FEFD0049A774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +63,22 @@
 		7E123C7F24C1FEFE0049A774 /* YPShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E123C8324C1FEFE0049A774 /* YPShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPShopUITests.swift; sourceTree = "<group>"; };
 		7E123C8524C1FEFE0049A774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA523C024C5F58E0098B27B /* AbstractErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractErrorParser.swift; sourceTree = "<group>"; };
+		7EA523C224C5F6720098B27B /* ErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
+		7EA523C424C5F7580098B27B /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		7EA523C624C5FA150098B27B /* AbstractRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestFactory.swift; sourceTree = "<group>"; };
+		7EA523C824C5FB720098B27B /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		7EA523CA24C5FD8D0098B27B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7EA523CC24C5FE150098B27B /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		7EA523CF24C5FE920098B27B /* AuthRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestFactory.swift; sourceTree = "<group>"; };
+		7EA523D124C5FEF10098B27B /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		7EA523D324C601810098B27B /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		7EA523D724C9ABB00098B27B /* EmptyResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResult.swift; sourceTree = "<group>"; };
+		7EA523D924C9AE0E0098B27B /* RegisterUserResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserResult.swift; sourceTree = "<group>"; };
+		9A0D2C7F8D8ECBB7F5FDC739 /* Pods-YPShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShopTests.debug.xcconfig"; path = "Target Support Files/Pods-YPShopTests/Pods-YPShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8722C97976261DA9C47FEE6 /* Pods-YPShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShop.debug.xcconfig"; path = "Target Support Files/Pods-YPShop/Pods-YPShop.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5CFFEEE063DEFEE2CFD958 /* Pods-YPShop-YPShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShop-YPShopUITests.debug.xcconfig"; path = "Target Support Files/Pods-YPShop-YPShopUITests/Pods-YPShop-YPShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFA9D04E1B8CF43D7FB99177 /* Pods-YPShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPShop.release.xcconfig"; path = "Target Support Files/Pods-YPShop/Pods-YPShop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB7C99ED91A6CF816EE99BF /* Pods_YPShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83B64DC4D7973548E4EA1BA /* Pods_YPShopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0AC83A1A42F6D92EA0BAB0 /* Pods_YPShop_YPShopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0CD31C63927E7B35B6F77B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8722C97976261DA9C47FEE6 /* Pods-YPShop.debug.xcconfig */,
+				EFA9D04E1B8CF43D7FB99177 /* Pods-YPShop.release.xcconfig */,
+				DB5CFFEEE063DEFEE2CFD958 /* Pods-YPShop-YPShopUITests.debug.xcconfig */,
+				5FEEB66F9DAA85E883B51D8F /* Pods-YPShop-YPShopUITests.release.xcconfig */,
+				9A0D2C7F8D8ECBB7F5FDC739 /* Pods-YPShopTests.debug.xcconfig */,
+				69DC7D37BFA69120A8887E85 /* Pods-YPShopTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7E123C5524C1FEFC0049A774 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +129,8 @@
 				7E123C7724C1FEFE0049A774 /* YPShopTests */,
 				7E123C8224C1FEFE0049A774 /* YPShopUITests */,
 				7E123C5F24C1FEFC0049A774 /* Products */,
+				0E0CD31C63927E7B35B6F77B /* Pods */,
+				BCFE37A97C39E9184BBEE38C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,7 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				7E123C6124C1FEFC0049A774 /* AppDelegate.swift */,
-				7E123C6324C1FEFC0049A774 /* SceneDelegate.swift */,
 				7E123C9824C200460049A774 /* BussinessLogic */,
 				7E123C9724C2003D0049A774 /* Entity */,
 				7E123C9624C200320049A774 /* Assembly */,
@@ -137,6 +188,7 @@
 		7E123C9224C1FFEF0049A774 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7EA523BF24C5F5210098B27B /* Network */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -175,6 +227,10 @@
 		7E123C9724C2003D0049A774 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				7EA523CA24C5FD8D0098B27B /* User.swift */,
+				7EA523CC24C5FE150098B27B /* LoginResult.swift */,
+				7EA523D724C9ABB00098B27B /* EmptyResult.swift */,
+				7EA523D924C9AE0E0098B27B /* RegisterUserResult.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -182,8 +238,41 @@
 		7E123C9824C200460049A774 /* BussinessLogic */ = {
 			isa = PBXGroup;
 			children = (
+				7EA523CE24C5FE720098B27B /* Network */,
 			);
 			path = BussinessLogic;
+			sourceTree = "<group>";
+		};
+		7EA523BF24C5F5210098B27B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7EA523C024C5F58E0098B27B /* AbstractErrorParser.swift */,
+				7EA523C224C5F6720098B27B /* ErrorParser.swift */,
+				7EA523C424C5F7580098B27B /* DataRequest.swift */,
+				7EA523C624C5FA150098B27B /* AbstractRequestFactory.swift */,
+				7EA523C824C5FB720098B27B /* RequestRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7EA523CE24C5FE720098B27B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7EA523CF24C5FE920098B27B /* AuthRequestFactory.swift */,
+				7EA523D124C5FEF10098B27B /* Auth.swift */,
+				7EA523D324C601810098B27B /* RequestFactory.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BCFE37A97C39E9184BBEE38C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				314D6B07644DE7631951B1F2 /* Pods_YPShop.framework */,
+				75C6BBAB60AC9251CF3EB325 /* Pods_YPShop_YPShopUITests.framework */,
+				3AB959375F4A9CC50FB85FE0 /* Pods_YPShopTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E123C8824C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShop" */;
 			buildPhases = (
+				50AD6DA51236124ED0CA5D23 /* [CP] Check Pods Manifest.lock */,
 				7E123C5A24C1FEFC0049A774 /* Sources */,
 				7E123C5B24C1FEFC0049A774 /* Frameworks */,
 				7E123C5C24C1FEFC0049A774 /* Resources */,
+				880005A61B07D107559FC132 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E123C8B24C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShopTests" */;
 			buildPhases = (
+				D5D4A2420A33034573F3EE6F /* [CP] Check Pods Manifest.lock */,
 				7E123C7024C1FEFE0049A774 /* Sources */,
 				7E123C7124C1FEFE0049A774 /* Frameworks */,
 				7E123C7224C1FEFE0049A774 /* Resources */,
@@ -228,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E123C8E24C1FEFE0049A774 /* Build configuration list for PBXNativeTarget "YPShopUITests" */;
 			buildPhases = (
+				9342C9ED7A7CACFDCD34A1AA /* [CP] Check Pods Manifest.lock */,
 				7E123C7B24C1FEFE0049A774 /* Sources */,
 				7E123C7C24C1FEFE0049A774 /* Frameworks */,
 				7E123C7D24C1FEFE0049A774 /* Resources */,
+				84AE3A4D9F9BF1870F7862FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,13 +405,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50AD6DA51236124ED0CA5D23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YPShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84AE3A4D9F9BF1870F7862FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YPShop-YPShopUITests/Pods-YPShop-YPShopUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YPShop-YPShopUITests/Pods-YPShop-YPShopUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YPShop-YPShopUITests/Pods-YPShop-YPShopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		880005A61B07D107559FC132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YPShop/Pods-YPShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YPShop/Pods-YPShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YPShop/Pods-YPShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9342C9ED7A7CACFDCD34A1AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YPShop-YPShopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D4A2420A33034573F3EE6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YPShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E123C5A24C1FEFC0049A774 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA523D424C601810098B27B /* RequestFactory.swift in Sources */,
+				7EA523C724C5FA150098B27B /* AbstractRequestFactory.swift in Sources */,
 				7E123C6224C1FEFC0049A774 /* AppDelegate.swift in Sources */,
-				7E123C6424C1FEFC0049A774 /* SceneDelegate.swift in Sources */,
+				7EA523DA24C9AE0E0098B27B /* RegisterUserResult.swift in Sources */,
+				7EA523C924C5FB720098B27B /* RequestRouter.swift in Sources */,
+				7EA523C324C5F6720098B27B /* ErrorParser.swift in Sources */,
+				7EA523CD24C5FE150098B27B /* LoginResult.swift in Sources */,
+				7EA523D824C9ABB00098B27B /* EmptyResult.swift in Sources */,
+				7EA523D224C5FEF10098B27B /* Auth.swift in Sources */,
+				7EA523D024C5FE920098B27B /* AuthRequestFactory.swift in Sources */,
+				7EA523C124C5F58E0098B27B /* AbstractErrorParser.swift in Sources */,
+				7EA523C524C5F7580098B27B /* DataRequest.swift in Sources */,
+				7EA523CB24C5FD8D0098B27B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,11 +688,13 @@
 		};
 		7E123C8924C1FEFE0049A774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8722C97976261DA9C47FEE6 /* Pods-YPShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQ8BGD9ND3;
 				INFOPLIST_FILE = YPShop/Environments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,17 +702,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7E123C8A24C1FEFE0049A774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA9D04E1B8CF43D7FB99177 /* Pods-YPShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQ8BGD9ND3;
 				INFOPLIST_FILE = YPShop/Environments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,12 +722,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yp.dev.YPShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7E123C8C24C1FEFE0049A774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0D2C7F8D8ECBB7F5FDC739 /* Pods-YPShopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +751,7 @@
 		};
 		7E123C8D24C1FEFE0049A774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DC7D37BFA69120A8887E85 /* Pods-YPShopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,6 +774,7 @@
 		};
 		7E123C8F24C1FEFE0049A774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5CFFEEE063DEFEE2CFD958 /* Pods-YPShop-YPShopUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +795,7 @@
 		};
 		7E123C9024C1FEFE0049A774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEEB66F9DAA85E883B51D8F /* Pods-YPShop-YPShopUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
