@@ -29,4 +29,11 @@ final class RequestFactory {
 					sessionManager: self.commonSession,
 					queue: self.sessionQueue)
 	}
+	
+	func makeCatalogRequestFactory() -> CatalogRequestFactory {
+		let errorParser = self.makeErrorParser()
+		return Catalog(errorParser: errorParser,
+					   sessionManager: self.commonSession,
+					   queue: self.sessionQueue)
+	}
 }
